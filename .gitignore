@@ -1,0 +1,19 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local feedback and generated predictions
+real_feedback.csv
+*_predicted.csv
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
